@@ -43,7 +43,10 @@ RUN yum -y update && \
     libnsl2 \
     bluez-libs \
     tix \
-    python38
+    python38 \
+    cmake \
+    rsync \
+    gdb
 
 RUN echo  root:asd123 | chpasswd
 
