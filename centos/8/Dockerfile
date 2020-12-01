@@ -46,7 +46,8 @@ RUN yum -y update && \
     python38 \
     cmake \
     rsync \
-    gdb
+    gdb \
+    gdb-gdbserver
 
 RUN echo  root:asd123 | chpasswd
 
